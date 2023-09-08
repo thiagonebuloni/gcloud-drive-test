@@ -1,0 +1,5 @@
+venv
+.vscode
+__pycache__
+client_secret_566868905417-g3difppfkga03a99hdvofmnguokj4hgn.apps.googleusercontent.com.json
+sheets/__pycache__
