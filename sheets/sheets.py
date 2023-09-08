@@ -3,12 +3,13 @@ import pandas as pd
 from pprint import pprint
 from Google import create_service
 
-CLIENT_SECRET_FILE = 'client_secret_566868905417-g3difppfkga03a99hdvofmnguokj4hgn.apps.googleusercontent.com.json'
+CLIENT_SECRET_FILE = 'credentials.json'
 API_NAME = 'sheets'
 API_VERSION = 'v4'
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 service = create_service(CLIENT_SECRET_FILE, API_NAME, API_VERSION, SCOPES)
+assert service is not None
 spreadsheet_id = '1AH8H_MRaQLyNL0h7WYR6gw64Pqad2E-dDKmySJggbe4'
 
 

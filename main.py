@@ -4,7 +4,7 @@ from Google import create_service
 from sheets.sheets import update_sheet_cells, get_data_range
 from drive.drive import create_folder
 
-# CLIENT_SECRET_FILE = 'client_secret_566868905417-g3difppfkga03a99hdvofmnguokj4hgn.apps.googleusercontent.com.json'
+# CLIENT_SECRET_FILE = 'credentials.json'
 # API_NAME = 'sheets'
 # API_VERSION = 'v4'
 # SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
